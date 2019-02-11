@@ -1,0 +1,81 @@
+.mainPage--content{display: none;}
+
+.filter_content ul li{
+    list-style-type: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.filter_content ul{
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.filter_content .min--title{
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.filter_content ul li a{
+    float: right;
+    font-size: 15px;
+    margin-top: -1px;
+    color: #63a4ff;
+}
+
+.filter_content ul li a:hover{
+    color: #4c82ce;
+}
+
+.filter_content .card, .filter_content .content{
+    float: left;
+    width: 100%;
+    box-shadow: none;
+}
+
+.filter_content .content{
+    margin-top: 15px;
+}
+
+.filter--inputs{
+    color: #66615b;
+    font-size: 13px;
+    border: 1px solid #CCC5B9;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    max-width: 130px;
+}
+
+.add--newFilter{
+    border-color: rgba(204, 196, 184, 0.56);
+    background-color: #63a4ff !important;
+    color: #fff;
+    font-size: 13px;
+    border: 2px solid rgba(204, 196, 184, 0.56);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.add--newFilter:hover{
+    background-color: #598bd4 !important;
+    color: #FFFFFF;
+    border-color: #40669c !important;
+}
+
+.text-center button{
+    border-radius: 0;
+}
+
+.remove__Filter i{
+    color: #000;
+    font-weight: 100;
+}

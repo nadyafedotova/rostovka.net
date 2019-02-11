@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>modnakasta.net</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/bundle.css">
+    <link rel="stylesheet" href="css/hody-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:400" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="modal fade product-modal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+        <form id="productForm" class="productForm allproducts" method="get" action="">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="product-thumb">
+                                <img src="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="name">
+                                <p>Товар:</p>
+                                <p class="mname"></p>
+                            </div>
+                            <div class="good-id">
+                                <p>ID:</p>
+                                <p class="mid">123456</p>
+                            </div>
+                            <div class="price">
+                                <p>Цена:</p>
+                                <p class="mprice">229.99 грн.</p>
+                            </div>
+                            <div class="price">
+                                <label for="size">Укажите размер:</label>
+                                <div class="form-select">
+                                    <select id="size" name="size" type="text" required class="form-control">
+                                        <option value="" selected="selected">Выбрать размер</option>
+                                        <option value="1">36</option>
+                                        <option value="2">37</option>
+                                        <option value="3">38</option>
+                                        <option value="4">39</option>
+                                        <option value="5">40</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="user-name">
+                                <label for="csname">Вашe имя:</label>
+                                <input id="csname" name="csname" required type="text" class="form-control"
+                                       placeholder="Введите Ваше имя" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="phone-number">
+                                <label for="csnumber">Ваш номер:</label>
+                                <input id="csnumber" name="csnumber" required type="number" class="form-control"
+                                       placeholder="+38 (0xx) xxx-xx-xx" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-color btn-call-back">Купить товар</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade sendedModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog modal-confirm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="icon-box">
+                    <i class="material-icons"></i>
+                </div>
+                <h4 class="modal-title">Класс!</h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">Вы успешно купили товар. Менеджер скоро с вами свяжется</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product-modal-men" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+        <form class="prodForm mans" method="get" action="">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="product-thumb">
+                                <img src="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="name">
+                                <p>Товар:</p>
+                                <p class="mname"></p>
+                            </div>
+                            <div class="good-id">
+                                <p>ID:</p>
+                                <p class="mid"></p>
+                            </div>
+                            <div class="price">
+                                <p>Цена:</p>
+                                <p class="mprice"></p>
+                            </div>
+                            <div class="price">
+                                <label for="size">Укажите размер:</label>
+                                <div class="form-select">
+                                    <select id="size" name="size" type="text" required class="form-control">
+                                        <option value="" selected="selected">Выбрать размер</option>
+                                        <option value="1">36</option>
+                                        <option value="2">37</option>
+                                        <option value="3">38</option>
+                                        <option value="4">39</option>
+                                        <option value="5">40</option>
+                                        <option value="6">41</option>
+                                        <option value="7">42</option>
+                                        <option value="8">43</option>
+                                        <option value="9">44</option>
+                                        <option value="10">45</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="user-name">
+                                <label for="csname">Вашe имя:</label>
+                                <input id="csname" name="csname" required type="text" class="form-control"
+                                       placeholder="Введите Ваше имя" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="phone-number">
+                                <label for="csnumber">Ваш номер:</label>
+                                <input id="csnumber" name="csnumber" required type="number" class="form-control"
+                                       placeholder="+38 (0xx) xxx-xx-xx" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-color btn-call-back">Купить товар</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Navigation Bar-->
+<header id="topnav">
+    <div class="container">
+        <!-- Logo container-->
+        <div class="logo">
+            <a href="index.html">
+                <span class="logo-light">modnakasta</span>
+                <span class="logo-dark">modnakasta</span>
+            </a>
+        </div>
+        <!-- End Logo container-->
+        <div>
+            <ul class="navigation-menu nav">
+                <li class="menu-item-has-children has-megamenu">
+                    <a href="#products">КУПИТЬ КОНВЕРСЫ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-extras">
+            <p>Номер тел.: +38 (093) 710 02 28</p>
+            <div class="menu-item">
+                <a class="btn btn-color if-mobile" data-callme-config='main'>Обратная связь</a>
+            </div>
+        </div>
+    </div>
+    <div class="icons">
+        <a href="viber://chat?number=+380937100228"><img src="images/002-viber.svg" alt=""></a>
+        <a href="https://instagram.com/ugg.uk" target="_blank"><img src="images/001-instagram.svg" alt=""></a>
+
+        <a class="callback">
+            <img src="images/call.svg" alt="" data-toggle="modal" data-callme-config="main">
+        </a>
+    </div>
+</header>
+
+<section>
+    <div class="flexslider" id="home-slider">
+        <ul class="slides">
+            <li>
+                <img src="images/convers/На%20главную.jpg" alt="">
+                <div class="slide-wrap light">
+                    <div class="slide-content text-left">
+                        <div class="container">
+                            <h1 class="font-small">Распродажа конверсов <br/>по 649 грн.</h1>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="products">
+    <div class="container">
+        <div class="title center">
+            <h2 class="upper">Наши товары</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="grid">
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="1">
+                        <div class="product-thumb">
+                            <img src="images/convers/1.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>СИНИЕ</h4>
+                            <div class="pull-left">
+                                <span class="id-goods">ID: 7901</span>
+                            </div>
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="2">
+                        <div class="product-thumb">
+                            <img src="images/convers/2.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>РОЗОВЫЕ ГЕЛЬ</h4>
+                            <div class="pull-left">
+                                <span class="id-goods">ID: 7902</span>
+                            </div>
+
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="3">
+                        <div class="product-thumb">
+                            <img src="images/convers/3.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>РОЗОВЫЕ</h4>
+                            <div class="pull-left"><span class="id-goods">ID: 7903</span></div>
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="6">
+                        <div class="product-thumb">
+                            <img src="images/convers/4.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>СЕРЕБРО</h4>
+                            <div class="pull-left"><span class="id-goods">ID: 7906</span></div>
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="7">
+                        <div class="product-thumb">
+                            <img src="images/convers/5.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>КРАСНЫЕ</h4>
+                            <div class="pull-left"><span class="id-goods">ID: 7907</span></div>
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="10">
+                        <div class="product-thumb">
+                            <img src="images/convers/6.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>МАЛИНОВЫЕ</h4>
+                            <div class="pull-left"><span class="id-goods">ID: 7910</span></div>
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="11">
+                        <div class="product-thumb">
+                            <img src="images/convers/7.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>БЕЛЫЕ</h4>
+                            <div class="pull-left"><span class="id-goods">ID: 7911</span></div>
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-12 filter element-item"
+                         data-set="36-40" data-id="12">
+                        <div class="product-thumb">
+                            <img src="images/convers/8.jpg" class="img-responsive">
+                            <div class="product-overlay" data-toggle="modal" data-target=".product-modal">
+                                <a href="#product-modal" onclick="getOptions(event)"><span
+                                        class="add-to-cart-loop-text">Купить</span><i class="add-to-cart-loop-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>ЧЕРНЫЕ</h4>
+                            <div class="pull-left">
+                                <span class="id-goods">ID: 7912</span>
+                            </div>
+                            <div class="pull-right">
+                                <span class="itemPrice">649 грн.</span>
+                                <sup>1099 грн.</sup>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="parallax-bg">
+    <div class="row-parallax-bg">
+        <div class="parallax-wrapper">
+            <div class="parallax-bg-element">
+                <img src="images/convers/Вниз.jpg" alt="">
+            </div>
+        </div>
+        <div class="parallax-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="col-sm-12 col-md-12 col-xs-12">
+            <div class="title left">
+                <h1 class="serif">Почему конверсы?</h1>
+                <h4 class="serif">
+                    Мы понимаем, что качественная, стильная, красивая и удобная брендовая обувь – не только часть
+                    неповторимого образа, но и необходимая вещь в повседневной жизни. В нашем магазине Вы можете выбрать
+                    и купить различные модели оригинальной обуви конверс, обеспечивающей комфорт, здоровье, активность и
+                    хорошее настроение. Конверсы давно стали фаворитами среди обуви у голливудских звезд. А кто, как не они,
+                    знают о моде все? Если вы считаете себя настоящей модницей, то Вы не пройдёте мимо, пожалуй, самой
+                    удобной обуви - конверс.
+                </h4>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-xs-12">
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="icon-container">
+                        <img class="icon" src="images/wallet-icon.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h4 class="text-title">Гарантия качества</h4>
+                        <p>Мы продаём исключительно оригинальную продукцию конверсов.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="icon-container">
+                        <img class="icon" src="images/delivery-icon.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h4 class="text-title">Доставка</h4>
+                        <p>Закажите прямо сейчас и мы отправим Вам товар в ближайшее время без предоплаты "Новой Почтой"
+                            в любую точку Украины.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="icon-container">
+                        <img class="icon" src="images/like-icon.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h4 class="text-title">Гарантия возврата</h4>
+                        <p>На каждый товар распространятся гарантия, которая позволяет вернуть либо обменять товар.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer-widgets">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12 pull-left">
+                <div class="widget clearfix">
+                    <h5>Наши контакты</h5>
+                    <p>Номер тел.: +38 (093) 710 02 28</p>
+                    <ul class="social-list">
+                        <li class="social-item-instagram">
+                            <a target="_blank" href="https://instagram.com/ugg.uk"><i class="hc-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5 col-xs-12 pull-right">
+                <div class="widget clearfix">
+                    <h5>Связаться с нами</h5>
+                    <div class="footer-newsletter">
+                        <a class="btn btn-color" data-callme-config='main'>Обратная связь</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="go-top">
+    <a href="#top">
+        <i class="hc-angle-up"></i>
+    </a>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bundle.js"></script>
+<script type="text/javascript" src="js/isotope.pkgd.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="feedback/js/callme.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-MPMSCX8');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPMSCX8"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>

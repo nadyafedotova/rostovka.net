@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="382" viewBox="0 0 1440 382">
+  <defs>
+    <linearGradient id="aio_gradient-a" x1="51.333%" x2="51.333%" y1="0%" y2="86.45%">
+      <stop offset="0%" stop-color="#1249D8"/>
+      <stop offset="100%" stop-color="#56DEED" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#aio_gradient-a)" fill-rule="evenodd" d="M38.0967171,529.658402 C38.0967171,529.658402 367.184878,440 774.472362,440 C1181.75985,440 1488,526.369151 1488,526.369151 L1484.35279,821.474168 L37,821.474168 L38.0967171,529.658402 Z" opacity=".2" style="mix-blend-mode:multiply" transform="translate(-46 -440)"/>
+</svg>

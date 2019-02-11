@@ -1,0 +1,61 @@
+{{each row}}
+<tr data-id="${targetID}" product-id="${productID}">
+    <td class="poduct--info">
+        <a href="${cart_product_url}">
+            <img src="${imgUrl}">
+            <span class="first-child">${name}</span>
+        </a>
+    </td>
+
+    <td>
+        <span class="form-group">
+            <span class="input-group number-spinner" data-set="${targetID}">
+                <span class="input-group-btn">
+                    <a class="btn btn-danger">
+                        <span class="fa fa-minus Cart_Button_Minus" data-dir="dwn" data-set="${productID}"></span>
+                    </a>
+                </span>
+
+                <input type="text" disabled name="adult" id="adult" data-set="quantity_counter" class="form-control text-center" value="${quantity}" max=9999 min=1>
+
+                <span class="input-group-btn">
+                    <a class="btn btn-info">
+                        <span class="fa fa-plus Cart_Button_Plus" data-dir="up" data-set="${productID}"></span>
+                    </a>
+                </span>
+            </span>
+        </span>
+    </td>
+
+    <td class="type">
+        <div class="form-group select-style">
+            <select class="form-control" onChange="getSelect(event, value)" data-set="select_box_type" >
+                <option value="0">в ящике</option>
+                <option value="1">ростовка</option>
+            </select>
+        </div>
+    </td>
+
+    <td class="price">
+        <span>${price_per_pair} грн</span>
+    </td>
+
+    <td class="price">
+        <span class="item--price">${price} грн</span>
+    </td>
+
+    <td class="price">
+        <span class="item--price">${size}</span>
+    </td>
+
+    <td class="price counting">
+        <span data-set="productSumm">${quantityPrice} <span>грн</span></span>
+    </td>
+
+    <td class="remove--td">
+        <span class="removeItem">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </span>
+    </td>
+</tr>
+{{/each}}

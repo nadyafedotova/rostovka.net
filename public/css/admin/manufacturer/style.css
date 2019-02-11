@@ -1,0 +1,43 @@
+.price .title{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+.info{
+    text-align: right;
+    padding-bottom: 10px;
+}
+table{
+    border-spacing: 0;
+}
+.table table{
+    width: 100%;
+}
+.table table,td {
+    border: 1px solid black;
+    border-right: 0;
+    border-collapse: collapse;
+}
+td:first-child{
+    border-left: 0;
+}
+td:last-child{
+    border-right: 1px solid black;
+}
+.table th{
+    background: #e4e4e4;
+    border: 1px solid black;
+}
+.table td {
+    text-align: center;
+}
+.cost{
+    float: right;
+    padding: 0 0 0 25px;
+}
+.info p{
+    margin: 10px 20px 0 0;
+}
+.info .price{
+    font-size: 25px;
+}

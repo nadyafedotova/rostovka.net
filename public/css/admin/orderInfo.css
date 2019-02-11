@@ -1,0 +1,248 @@
+.card{
+    padding-bottom: 30px;
+}
+
+.col-md-5{padding: 0}
+.orderInfo__input{
+    margin-bottom: -25px
+}
+.col-md-7 .header, .col-md-5 .header{
+    padding: 0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-left: 13px;
+    border-bottom: 5px solid #f4f3ef;
+    padding-bottom: 10px;
+}
+
+.card form [class*="col-"]:first-child{
+    padding-left: 0 !important;
+}
+
+.card form [class*="col-"]:last-child{
+    padding-right: 5px;
+}
+
+.header .col-md-12, .header .col-md-12 .title, .header .col-md-12 .addProduct{
+    padding: 0;
+}
+
+.select2-selection.select2-selection--single{
+    padding-left: 5px !important;
+}
+
+.form-control.border-input {
+    border: 1px solid #CCC5B9;
+    padding-left: 13px;
+    padding-top: 9px;
+}
+.form-control{
+    background: #fff;
+}
+
+.removePrudct{
+    font-size: 17px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.table thead tr > th, .table thead tr > td, .table tbody tr > th, .table tbody tr > td, .table tfoot tr > th, .table tfoot tr > td{
+    border-top: 0;
+    border-bottom: 5px solid #F4F3EF;
+}
+
+.product--list{
+    padding: 0;
+    position: relative;
+}
+
+.product--list table tr:hover{
+    background: #f4f3ef;
+}
+
+.addProduct .fa{
+    font-size: 25px;
+    color: #63a3ff;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.tooltip{
+    width: 100%;
+}
+
+#productsModal .modal-dialog{
+    width: 80%;
+    margin-top: 0;
+}
+#productsModal .modal-content{
+    padding: 0;
+    position: relative;
+}
+#productsModal button{border-radius: 0}
+#productsModal button:hover{
+    color: #fff;
+    border-radius: 0;
+}
+#productsModal .close{
+    margin-top: 10px;
+    margin-right: 10px;
+    z-index: 11;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    color: #000;
+}
+#productsModal .close:hover{
+    color: #000;
+}
+
+#productsModal .search--good{
+    background: #63a3ff;
+    border: none;
+    padding: 10px 20px 9px 20px;
+    border-radius: 0;
+    color: #fff;
+}
+
+#productsModal .search--good:hover{
+    border-radius: 0;
+    background: #5188d6;
+}
+
+#productsModal .modal-body input{
+    border: 1px solid #e5e5e5;
+    padding-top: 9px;
+    color: #65615a;
+    border-radius: 0;
+}
+
+#productsModal .modal-body input::placeholder{
+    color: #65615a;
+}
+
+#productsModal .modal-body{
+    float: left;
+    width: 100%;
+    padding-bottom: 0;
+    text-align: center;
+    padding: 0;
+    padding-top: 20px;
+    position: relative;
+}
+
+#productsModal .modal-body .col-md-5, #productsModal .modal-body .col-md-2{
+    float: none;
+    display: inline-block;
+}
+
+#productsModal .modal-footer button{
+    background: #63a3ff;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 0;
+    color: #fff;
+}
+
+#productsModal table input{
+    border: none !important;
+}
+
+#productsModal table select{
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+}
+
+#productsModal table .choose--amount{
+    border: 1px solid #e5e5e5 !important;
+    width: 40px;
+    text-align: center;
+    padding: 10px 2px 6px 0;
+    border-radius: 5px;
+}
+
+#productsModal table .form-group{
+    margin: 0;
+}
+
+#productsModal .founded--good{
+    padding: 0;
+    background: #f4f3ef;
+}
+
+#productsModal table th{
+    font-size: 14px;
+}
+
+
+#productsModal table tr > td, #productsModal table tr > th{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+input[type=checkbox]{
+    transform: scale(1.5);
+    border-radius: 0 !important;
+}
+
+
+#productsModal .preloader{
+    position: absolute;
+    width: auto;
+    background: #ffffffcc;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+#productsModal i{
+    top: 10%;
+}
+.preloader{
+    position: absolute;
+    width: auto;
+    background: #ffffffcc;
+    top: 0;
+    height: 100vh;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+
+.preloader i{
+    background: url("../../img/preloader.gif") no-repeat;
+    width: 38px;
+    height: 38px;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 50%;
+    transform: translate(-50%);
+}
+
+th img{
+    width: 70px;
+}
+
+.zero--result{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.submit--save{
+    background: #63a3ff;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 0;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+    border-radius: 10px;
+}

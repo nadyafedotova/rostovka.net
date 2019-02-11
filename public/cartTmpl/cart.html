@@ -1,0 +1,41 @@
+{{each row}}
+<li data-id="${targetID}" product-id="${productID}">
+    <a href="/${cart_product_url}">
+        <img src="${imgUrl}">
+        <span class="title">
+            ${name}
+        </span>
+    </a>
+
+    <div class="priceCounte">
+        <span class="price" data-Cart-summ="cartCount">
+            ${quantityPrice}
+        </span>
+        <span class="priceCde">грн</span>
+    </div>
+    <span class="count">
+
+        <span class="form-group">
+            <span class="input-group number-spinner" data-set="${targetID}">
+                <span class="input-group-btn">
+                    <a class="btn btn-danger">
+                        <span class="fa fa-minus Cart_Button_Minus" data-dir="dwn"></span>
+                    </a>
+                </span>
+
+                <input type="text" disabled name="adult" class="form-control text-center" value="${quantity}" max=9999 min=1 data-set="quantity_counter">
+
+                <span class="input-group-btn">
+                    <a class="btn btn-info">
+                        <span class="fa fa-plus Cart_Button_Plus" data-dir="up"></span>
+                    </a>
+                </span>
+            </span>
+        </span>
+    </span>
+
+    <span class="removeItem__cart">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </span>
+</li>
+{{/each}}

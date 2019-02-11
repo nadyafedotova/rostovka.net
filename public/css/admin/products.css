@@ -1,0 +1,212 @@
+.mainPage--content{display: none}
+.articul input{
+    max-width: 50px;
+    overflow: hidden;
+    border: none;
+    background: transparent;
+}
+
+.span12.pull-right{
+    margin-bottom: 10px;
+}
+
+.input-append.span12{
+    max-width: 250px;
+    width: 250px;
+}
+.input-append.span12 input{width: 90%;}
+
+.btn-rotate{
+    float: left;
+    margin-top: 1px;
+    margin-left: 22px;
+    border-radius: 0;
+}
+
+.table-striped td a.remove__product{
+    position: absolute;
+    right: 80%;
+}
+
+.search input{
+    padding-right: 4px \9;
+    padding-left: 4px \9;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #ccc4b8;
+    border-radius: 0;
+    padding: 7px 10px 5px 10px;
+}
+
+.card .table tbody td:first-child, .card .table thead th:first-child{
+    padding: 0 !important;
+}
+
+.fht-cell input, .fht-cell select{
+    padding-right: 4px \9;
+    padding-left: 4px \9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #ccc4b8;
+    border-radius: 0;
+    padding: 7px 10px 5px 10px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.fixed-table-container thead th .sortable{
+    cursor: pointer;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 0 !important;
+    text-align: center;
+    padding-left: 0 !important;
+}
+
+.bootstrap-table .table thead>tr>th{
+    padding-bottom: 15px !important;
+}
+
+.fixed-table-toolbar .bars, .fixed-table-toolbar .columns, .fixed-table-toolbar .search{
+    float: right !important;
+}
+
+.table-full-width{
+    margin: 0 !important;
+}
+.header--add--buttons .col-md-12{padding: 0}
+.header--add--buttons{
+    float: left;
+    padding: 0;
+}
+.header--add--buttons i:hover{
+    color: #63a3ff;
+}
+.upload--buttons, .update--buttons, .remove--buttons {
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    margin-right: 20px;
+    float: left;
+    padding: 0;
+}
+
+.update--buttons i{
+    margin-top: 5px;
+}
+
+.modal-footer .btn:hover{
+    background: transparent;
+}
+
+.sorting__Option {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 196, 184);
+    padding: 6px 10px 3px 10px;
+    text-align: center;
+    float: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 6px;
+    background: url(../../img/sel__Arrow.png) white no-repeat 98.5% !important;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table > tbody > tr{
+    border: 1px solid #f4f3ef !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.header--add--buttons button{
+    background: #63a3ff;
+    color: #fff;
+    padding: 6px 10px 4px 10px;
+    float: right;
+    margin-bottom: 10px;
+    position: absolute;
+    right: -100px;
+    top: 20px;
+}
+
+.file-input-wrapper{
+    border-radius: 0;
+    border: 1px solid #a6a6a6;
+    background: #fff;
+    float: left;
+    padding: 5px 10px 4px 10px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+
+.file-input-wrapper:hover{
+    background: transparent;
+}
+
+.alert-danger{
+    position: fixed;
+    top: 10px;
+    z-index: 999;
+    right: 10px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+
+.alert--xsl{
+    top: 60px;
+}
+
+.productsArt input{
+    max-width: 100% !important;
+}
+
+.table.table-striped th{
+    font-weight: normal;
+}
+
+.for_Supliers{
+    right: -340px !important;
+    width: auto;
+}
+
+.produtsTablePage .remove__product{
+    right: 0 !important;
+}
+.clearAll{
+    background: #63a3ff;
+    color: #fff;
+    padding: 6px 10px 4px 10px;
+    top: 20px;
+    margin-right: 50px;
+}
+.saveAll{
+    background: #63a3ff;
+    color: #fff;
+    padding: 6px 10px 4px 10px;
+    top: 20px;
+}
+#closeAll{
+    display: none;
+}
+.input-append{
+    padding-top: 10px;
+    text-align: center;
+}
+.availability{
+    border-radius: initial;
+}
+.checkCounter{
+    margin-top: 0;
+}

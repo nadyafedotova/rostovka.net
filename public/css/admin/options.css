@@ -1,0 +1,160 @@
+.header{
+    margin-bottom: 30px;
+}
+.min--title {
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    padding-left: 7px;
+}
+.card{
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.card label {
+    padding-top: 10px;
+}
+.col-md-7 ul{
+    float: left;
+    width: 100%;
+    padding: 0 !important;
+}
+.col-md-7{
+    padding: 0;
+    padding-left: 15px;
+}
+.col-md-7 ul li{
+    list-style-type: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 13px;
+    float: left;
+}
+.col-md-7 ul li:last-child{
+    margin-right: 0;
+}
+
+.col-md-7 ul li i{
+    color: #000000;
+    font-weight: normal !important;
+    margin-top: -1px;
+    float: right;
+    margin-left: 5px;
+}
+
+.add--newFilter {
+    border-color: rgba(204, 196, 184, 0.56);
+    background-color: #63a4ff !important;
+    color: #fff;
+    font-size: 13px;
+    border: 2px solid rgba(204, 196, 184, 0.56);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.filter--inputs{
+    padding: 3px 10px 0 10px;
+    height: 32.3px;
+}
+
+.discounts{
+    padding: 0;
+    margin-top: 20px;
+}
+
+.addnewButton{
+    padding: 0;
+}
+
+.option--Line{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.Methods ul{
+    float: left;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.Methods li{
+    float: none !important;
+    max-width: 245px !important;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.Methods li:last-child{margin-bottom: 0}
+
+.Methods ul li i{
+    color: #000000;
+    font-weight: normal !important;
+    margin-top: -1px;
+    float: right;
+    margin-left: 5px;
+}
+
+.ex--rates input{
+    margin-right: 10px;
+    padding-left: 5px
+}
+
+.ex--rates input:last-child{
+    margin-right: 0;
+}
+
+.ex--rates button{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ex--rates--table{margin-top: 30px; width: 100%}
+.ex--rates--table table thead th{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.ex--rates--table table tbody tr{
+    background: #f4f3ef99;
+}
+
+.save--options{
+    text-align: center;
+}
+
+.save--options input{
+    border-color: rgba(204, 196, 184, 0.56);
+    background-color: #63a4ff !important;
+    color: #fff;
+    font-size: 13px;
+    border: 2px solid rgba(204, 196, 184, 0.56);
+    padding-top: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.Methods td i{
+    font-weight: 100;
+    float: right;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.ex--rates--table .table tbody td{
+    padding-left: 10px !important;
+}
+
+.ex--rates--table.table tbody td:first-child, .ex--rates--table .table thead th:first-child{
+    padding-left: 10px !important;
+}

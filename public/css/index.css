@@ -1,0 +1,121 @@
+/* Do not remove the comments below. It's the markers used by wiredep to inject
+   less dependencies when defined in the bower.json of your dependencies */
+/* global reset */
+html,
+body {
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+/* global reset end*/
+/* Do not remove the comments below. It's the markers used by gulp-inject to inject
+   all your less files automatically */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmNzcyIsInJlc2V0Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7MkVBQzJFO0FBQzNFLGtCQUFrQjtBQ0RsQjs7RUFDRSxVQUFBO0VBQ0EsOERBQUE7RUFDQSxpQkFBQTtFQUNBLFVBQUE7RUFDQSxXQUFBO0NESUQ7QUNERDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQUdFLFVBQUE7RUFDQSxVQUFBO0VBQ0EsV0FBQTtDRDRCRDtBQ3pCRDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0VBR0UsVUFBQTtFQUNBLGdCQUFBO0VBQ0EseUJBQUE7RUFDQSxVQUFBO0VBQ0EsV0FBQTtDRDRERDtBQ3pERDs7Ozs7Ozs7Ozs7OztFQUVFLGVBQUE7Q0RzRUQ7QUNuRUQ7RUFDRSwwQkFBQTtFQUNBLGtCQUFBO0NEcUVEO0FDdkVEOzs7RUFJSSxpQkFBQTtFQUNBLHVCQUFBO0NEd0VIO0FDcEVEO0VBQ0UsVUFBQTtDRHNFRDtBQ25FRDtFQUNFLFdBQUE7Q0RxRUQ7QUFDRCxxQkFBcUI7QUFDckI7dUNBQ3VDIiwiZmlsZSI6ImluZGV4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIERvIG5vdCByZW1vdmUgdGhlIGNvbW1lbnRzIGJlbG93LiBJdCdzIHRoZSBtYXJrZXJzIHVzZWQgYnkgd2lyZWRlcCB0byBpbmplY3RcbiAgIGxlc3MgZGVwZW5kZW5jaWVzIHdoZW4gZGVmaW5lZCBpbiB0aGUgYm93ZXIuanNvbiBvZiB5b3VyIGRlcGVuZGVuY2llcyAqL1xuLyogZ2xvYmFsIHJlc2V0ICovXG5odG1sLFxuYm9keSB7XG4gIGJvcmRlcjogMDtcbiAgZm9udC1mYW1pbHk6IFwiSGVsdmV0aWNhLU5ldWVcIiwgXCJIZWx2ZXRpY2FcIiwgQXJpYWwsIHNhbnMtc2VyaWY7XG4gIGxpbmUtaGVpZ2h0OiAxLjU7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbn1cbmRpdixcbnNwYW4sXG5vYmplY3QsXG5pZnJhbWUsXG5pbWcsXG50YWJsZSxcbmNhcHRpb24sXG50aGVhZCxcbnRib2R5LFxudGZvb3QsXG50cixcbnRyLFxudGQsXG5hcnRpY2xlLFxuYXNpZGUsXG5jYW52YXMsXG5kZXRhaWxzLFxuZmlndXJlLFxuaGdyb3VwLFxubWVudSxcbm5hdixcbmZvb3RlcixcbmhlYWRlcixcbnNlY3Rpb24sXG5zdW1tYXJ5LFxubWFyayxcbmF1ZGlvLFxudmlkZW8ge1xuICBib3JkZXI6IDA7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbn1cbmgxLFxuaDIsXG5oMyxcbmg0LFxuaDUsXG5oNixcbnAsXG5ibG9ja3F1b3RlLFxucHJlLFxuYSxcbmFiYnIsXG5hZGRyZXNzLFxuY2l0LFxuY29kZSxcbmRlbCxcbmRmbixcbmVtLFxuaW5zLFxucSxcbnNhbXAsXG5zbWFsbCxcbnN0cm9uZyxcbnN1YixcbnN1cCxcbmIsXG5pLFxuaHIsXG5kbCxcbmR0LFxuZGQsXG5vbCxcbnVsLFxubGksXG5maWVsZHNldCxcbmxlZ2VuZCxcbmxhYmVsIHtcbiAgYm9yZGVyOiAwO1xuICBmb250LXNpemU6IDEwMCU7XG4gIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xufVxuYXJ0aWNsZSxcbmFzaWRlLFxuY2FudmFzLFxuZmlndXJlLFxuZmlndXJlIGltZyxcbmZpZ2NhcHRpb24sXG5oZ3JvdXAsXG5mb290ZXIsXG5oZWFkZXIsXG5uYXYsXG5zZWN0aW9uLFxuYXVkaW8sXG52aWRlbyB7XG4gIGRpc3BsYXk6IGJsb2NrO1xufVxudGFibGUge1xuICBib3JkZXItY29sbGFwc2U6IHNlcGFyYXRlO1xuICBib3JkZXItc3BhY2luZzogMDtcbn1cbnRhYmxlIGNhcHRpb24sXG50YWJsZSB0aCxcbnRhYmxlIHRkIHtcbiAgdGV4dC1hbGlnbjogbGVmdDtcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbn1cbmEgaW1nIHtcbiAgYm9yZGVyOiAwO1xufVxuOmZvY3VzIHtcbiAgb3V0bGluZTogMDtcbn1cbi8qIGdsb2JhbCByZXNldCBlbmQqL1xuLyogRG8gbm90IHJlbW92ZSB0aGUgY29tbWVudHMgYmVsb3cuIEl0J3MgdGhlIG1hcmtlcnMgdXNlZCBieSBndWxwLWluamVjdCB0byBpbmplY3RcbiAgIGFsbCB5b3VyIGxlc3MgZmlsZXMgYXV0b21hdGljYWxseSAqL1xuIiwiLyogZ2xvYmFsIHJlc2V0ICovXG5odG1sLCBib2R5IHtcbiAgYm9yZGVyOiAwO1xuICBmb250LWZhbWlseTogXCJIZWx2ZXRpY2EtTmV1ZVwiLCBcIkhlbHZldGljYVwiLCBBcmlhbCwgc2Fucy1zZXJpZjtcbiAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xufVxuXG5kaXYsIHNwYW4sIG9iamVjdCwgaWZyYW1lLCBpbWcsIHRhYmxlLCBjYXB0aW9uLCB0aGVhZCwgdGJvZHksXG50Zm9vdCwgdHIsIHRyLCB0ZCwgYXJ0aWNsZSwgYXNpZGUsIGNhbnZhcywgZGV0YWlscywgZmlndXJlLCBoZ3JvdXAsIG1lbnUsXG5uYXYsIGZvb3RlciwgaGVhZGVyLCBzZWN0aW9uLCBzdW1tYXJ5LCBtYXJrLCBhdWRpbywgdmlkZW8ge1xuICBib3JkZXI6IDA7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbn1cblxuaDEsIGgyLCBoMywgaDQsIGg1LCBoNiwgcCwgYmxvY2txdW90ZSwgcHJlLCBhLCBhYmJyLCBhZGRyZXNzLCBjaXQsIGNvZGUsXG5kZWwsIGRmbiwgZW0sIGlucywgcSwgc2FtcCwgc21hbGwsIHN0cm9uZywgc3ViLCBzdXAsIGIsIGksIGhyLCBkbCwgZHQsIGRkLFxub2wsIHVsLCBsaSwgZmllbGRzZXQsIGxlZ2VuZCwgbGFiZWwge1xuICBib3JkZXI6IDA7XG4gIGZvbnQtc2l6ZTogMTAwJTtcbiAgdmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG59XG5cbmFydGljbGUsIGFzaWRlLCBjYW52YXMsIGZpZ3VyZSwgZmlndXJlIGltZywgZmlnY2FwdGlvbiwgaGdyb3VwLFxuZm9vdGVyLCBoZWFkZXIsIG5hdiwgc2VjdGlvbiwgYXVkaW8sIHZpZGVvIHtcbiAgZGlzcGxheTogYmxvY2s7XG59XG5cbnRhYmxlIHtcbiAgYm9yZGVyLWNvbGxhcHNlOiBzZXBhcmF0ZTtcbiAgYm9yZGVyLXNwYWNpbmc6IDA7XG4gIGNhcHRpb24sIHRoLCB0ZCB7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICB9XG59XG5cbmEgaW1nIHtcbiAgYm9yZGVyOiAwO1xufVxuXG46Zm9jdXMge1xuICBvdXRsaW5lOiAwO1xufVxuLyogZ2xvYmFsIHJlc2V0IGVuZCovXG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */

@@ -1,0 +1,56 @@
+{{each row}}
+<div class="mobileCart--Products" data-id="${targetID}" product-id="${productID}" style="float: left; width: 100%; position: relative">
+    <span class="mobImage" style="float: left;width: 100%;border: 1px solid #efefef; border-top: 0; border-left: 0; border-right: 0; margin-top: 20px;margin-bottom: 20px;padding-top: 20px;padding-bottom: 20px;">
+        <a href="${cart_product_url}" style="float: left;width: 110px;margin-right: 19px;">
+            <img src="${imgUrl}" style="float: left;width: 130px;">
+        </a>
+
+        <span class="first-child" style="float: left;max-width: 160px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">${name}</span>
+
+        <span class="form-group select-style" style="margin-top: 40px;margin-bottom: 15px;display: block;width: auto;">
+            <select class="form-control" onChange="getSelect(event, value)" data-set="select_box_type" data-select-id="${productID}">
+                <option value="0">в ящике</option>
+                <option value="1">минимум</option>
+            </select>
+        </span>
+
+         <span class="form-group" style="width: 90px;display: block;float: right;margin-top: 0;margin-right: -5px;">
+            <span class="input-group number-spinner" style="margin-left: 0" data-set="${targetID}">
+                <span class="input-group-btn">
+                    <a class="btn btn-danger">
+                        <span class="fa fa-minus Cart_Button_Minus" data-dir="dwn" data-set="${productID}"></span>
+                    </a>
+                </span>
+
+                <input type="text" disabled name="adult" id="adult" data-set="quantity_counter" class="form-control text-center" value="${quantity}" max=9999 min=1>
+
+                <span class="input-group-btn">
+                    <a class="btn btn-info">
+                        <span class="fa fa-plus Cart_Button_Plus" data-dir="up" data-set="${productID}"></span>
+                    </a>
+                </span>
+            </span>
+        </span>
+
+        <span style="float: right;width: 100%;margin-top: 20px;">
+                <span style="float: left;width: 100%; display: none" class="item--price"></span>
+                <span style="float: left;width: 100%;">Цена за пару: ${price_per_pair} грн</span>
+
+                <span style="float: left;width: 100%;" class="item--price">Цена (рост./ящ.): ${price} грн</span>
+
+                <span style="float: left;width: 100%;" class="item--price">Размер: ${size}</span>
+
+                <span style="float: right; width: 100%; text-align: right;">
+                    Итого:
+                    <span class="price counting" style="float: right;text-align: right; font-weight: bold; margin-left: 10px">
+                        ${quantityPrice} <span>грн</span>
+                    </span>
+                </span>
+        </span>
+    </span>
+
+    <span class="removeItem" style="position: absolute;top: 0;right: 0;">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </span>
+</div>
+{{/each}}

@@ -1,0 +1,33 @@
+.price .title{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+.info{
+    text-align: right;
+}
+.info p{
+    margin: 10px 20px;
+}
+.table table{
+    width: 100%;
+}
+.table table, th, td {
+    border: 1px solid black;
+}
+.table th{
+    background: #e4e4e4;
+}
+.table td {
+    text-align: center;
+}
+.cost{
+    float: right;
+    padding: 25px 0 0 25px;
+}
+.cost p{
+    margin: 10px 20px 0 0;
+}
+.cost .price{
+    font-size: 25px;
+}

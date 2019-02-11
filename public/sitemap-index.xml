@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="SimpleSitemapGenerator/1.2.0" -->
+<!-- sitemap-generator-url="http://www.antczak.org"
+                          sitemap-generator-version="1.2.0" -->
+<!-- generated-on="2018-10-04T14:55:03+00:00" -->
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9                                     http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
+                              <sitemap><loc>https://rostovka.net/sitemap1.xml</loc><lastmod>2018-10-04T14:55:04+00:00</lastmod></sitemap><sitemap><loc>https://rostovka.net/sitemap2.xml</loc><lastmod>2018-10-04T14:55:04+00:00</lastmod></sitemap><sitemap><loc>https://rostovka.net/sitemap-types.xml</loc><lastmod>2018-10-04T14:55:04+00:00</lastmod></sitemap></sitemapindex>

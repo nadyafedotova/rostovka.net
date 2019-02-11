@@ -1,0 +1,20 @@
+<tr class="bold-blue" data-product-id="${id}">
+    <th style="text-align: center"><input type="checkbox" class="check--good"></th>
+    <th><img data-img="image-url" src=""></th>
+    <td class="articul"><input value="${article}" disabled=""></td>
+    <td>${name}</td>
+    <td>${category.name}</td>
+    <td>${manufacturer.name}</td>
+    <td>
+        <div class="form-group select-style">
+            <select class="form-control" data-set="select_box_type">
+                <option value="0" data-set="box">в ящике</option>
+                <option value="1" data-set="minimum">минимум</option>
+            </select>
+        </div>
+    </td>
+    <td>
+        <input type="number" class="choose--amount" data-amount="product-amount" value="1">
+    </td>
+    <td>${prise} грн</td>
+</tr>

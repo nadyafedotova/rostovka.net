@@ -1,0 +1,176 @@
+.mainPage--content{display: none}
+.table-striped td a.remove__order{
+    position: relative !important;
+    right: 0 !important;
+}
+
+.ti-printer{
+    position: relative !important;
+    right: 7px !important;
+    font-size: 18px;
+    top: 1px;
+    font-weight: normal;
+}
+
+.table-striped td a{
+    position: relative !important;
+    right: 5px !important;
+    top: 0;
+}
+
+.options{
+    text-align: center;
+}
+
+.costomer--Info a{
+    color: #63a4ff !important;
+}
+
+.costomer--Info:hover{
+    text-decoration: underline;
+}
+
+.identification{
+    width: 10px;
+}
+
+.datePicker{
+    background: #f4f3ef;
+    padding: 30px 10px 30px 10px;
+}
+
+.datePicker label{
+    background: #64a5ff;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    float: left;
+}
+
+.datePicker input{
+    border-left: 0 !important;
+    border: 1px solid #ccc4b8;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 196, 184);
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 196, 184);
+    padding: 6px 10px 3px 0px;
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+.datePicker #from{
+    margin-right: 5px;
+    width: 30%;
+}
+
+.datePicker .col-md-5{
+    padding: 0;
+}
+
+.datePicker .col-md-2 button{
+    background: #64a5ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 7px 35px 4px 35px;
+    margin-left: -20px;
+}
+
+.ui-widget.ui-widget-content{
+    margin-left: -42px;
+}
+
+.datePicker .sorting__Option{
+    width: 100%;
+    max-width: 220px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 196, 184);
+    padding: 6px 10px 3px 10px;
+    text-align: center;
+    float: left;
+    border-radius: 0;
+}
+
+.datePicker select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("../../img/sel__Arrow.png") white no-repeat 98.5% !important;
+    background: url("../../img/sel__Arrow.png") white no-repeat calc(100% - 10px) !important;
+}
+
+.datePicker .image__Option{
+    margin-left: 6px;
+    width: 100%;
+    max-width: 220px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 196, 184);
+    padding: 6px 10px 3px 10px;
+    text-align: center;
+    float: left;
+    border-radius: 0;
+}
+
+.datePicker__Block{
+    margin-bottom: 15px;
+}
+
+.datePicker .col-md-2 button:hover{
+    background: #4a82cf;
+}
+
+.datePicker .min--title{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    padding: 0;
+    padding-left: 0px;
+    padding-left: 7px;
+}
+.pull-right{
+    margin-bottom: 5px;
+}
+.pullT-right{
+    display: none;
+}
+.downloadButton button{
+    border-color: rgba(204, 196, 184, 0.56);
+    background-color: #63a4ff !important;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 20px 5px 20px;
+    font-size: 12px;
+}
+.seeButton button{
+    border-color: rgba(204, 196, 184, 0.56);
+    background-color: #63a4ff !important;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 20px 5px 20px;
+    font-size: 12px;
+}
+
+.searchbox{
+    margin-top: 15px;
+    padding: 0;
+}
+
+
+.back--error{
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    z-index: 999;
+    background: #c51313;
+    transform: translate(-50%);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    color: #fff;
+    padding-right: 30px;
+    text-align: center;
+}

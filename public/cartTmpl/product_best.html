@@ -1,0 +1,38 @@
+<div class="product-item prod--innerSide" data-id=${real_id} style="transition: 0.5s !important; height: 355px;">
+    <div class="badge badge--new">${prodNew}</div>
+    <div class="badge badge--sale">${prodSale}</div>
+    <div class="product-item-inner">
+        <div class="product-img-wrap">
+            <a href="${product_url}">
+                <img class="img-responsive" src="${imgUrl}" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="product-detail">
+        <p class="product-title">
+            <a href="${product_url}">${name}</a>
+        </p>
+
+        <div class="col-md-12 pull-left goodsCount_price" style="padding-bottom:10px;">
+            <span class="col-md-12 pull-left goods_amount mt">
+                <span class="item-price col-md-6 pull-left" style="text-align:left; padding: 0">${size}</span>
+                <h6 class="item-price  old--price zakprice" data-set="old--Price" style="color: #b2b2b2;
+                                                                                        text-decoration: line-through;
+                                                                                        position: absolute;
+                                                                                        ">${old_prise}</h6>
+                <h5 class="item-price col-md-6 pull-right" data-set="prodPrice" style="padding: 0">${price} <span>грн</span></h5>
+            </span>
+
+            <span class="col-md-12 pull-left goods_amount sp2" style="margin-top:40px;">
+                <span class="col-md-6 pull-left boxCount sp3" style="padding: 0"><b>${box}</b> - в ящике</span>
+                <span class="col-md-6 pull-right minCount sp4" data-set="minimum" style="padding: 0"><b>${rostovka}</b> - минимум</span>
+            </span>
+        </div>
+        <div class="product-button but">
+            <a href="#!" class="popular" onclick="success('Товар добавлен в корзину')" data-set="buyButton">
+                Купить
+            </a>
+        </div>
+    </div>
+</div>

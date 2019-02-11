@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /register
+Host: https://rostovka.net
+Sitemap: https://rostovka.net/sitemap-index.xml
